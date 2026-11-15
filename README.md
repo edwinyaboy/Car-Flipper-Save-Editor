@@ -1,6 +1,6 @@
 # Car Flipper Save Editor
 
-A community-made save editor for **Car Flipper**. The application is written in Rust and uses egui for its interface.
+A community-made save editor for <a href="https://store.steampowered.com/app/5343400/Car_Flipper/">**Car Flipper**</a>. The application is written in Rust and uses egui for its interface.
 
 > This is an unofficial community project. It is not made by or affiliated with the game's developer or publisher.
 
