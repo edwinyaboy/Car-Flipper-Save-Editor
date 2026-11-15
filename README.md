@@ -23,6 +23,12 @@ A community-made save editor for **Car Flipper**. The application is written in 
 
 ## A few things to know
 
+### Phantom GT Convertible
+
+It is not possible to spawn the Phantom GT Convertible using the save editor, since it is a paid vehicle.
+
+It can be acquired in the <a href="https://store.steampowered.com/app/5527310/Car_Flipper_Supporter_Pack/">Car Flipper Supporter Pack.</a> HIGHLY RECOMMENDED.
+
 ### Pricing
 
 The editor recalculates its displayed price when relevant advertisement values change. The pricing work is based on reverse-engineering of the game's data and behavior, not on an official game API.
