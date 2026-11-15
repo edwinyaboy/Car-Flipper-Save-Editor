@@ -1,0 +1,28 @@
+[package]
+name = "cf-save"
+version = "1.0.0"
+edition = "2021"
+description = "Save editor and mod tool for Car Flipper (UE 5 GVAS saves)"
+license = "MIT"
+
+[[bin]]
+name = "cf-save"
+path = "src/main.rs"
+
+[[bin]]
+name = "car-flipper-mod-tool"
+path = "src/gui.rs"
+
+[dependencies]
+eframe = { version = "0.27", default-features = false, features = ["glow", "default_fonts"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+
+[build-dependencies]
+winres = "0.1"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
